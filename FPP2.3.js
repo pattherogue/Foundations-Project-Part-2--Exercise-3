@@ -31,5 +31,8 @@ const randomInt = Math.floor(randomInRange);
 // ANSWER: In this context, we use Math.floor() instead of Math.round() to ensure that the rounded value is always rounded down. 
 
 // Adjust the integer obtained in Step 4 to fit within the range of 3 to 33, inclusive.
+const shiftValue = randomInt + 3;
+
+// How does adding 3 to randomInt ensure that our final shiftValue is between 3 and 33?
 // ANSWER: Adding 3 to `randomInt` shifts the range, making the numbers fall between 3 and 33, inclusive.
 
